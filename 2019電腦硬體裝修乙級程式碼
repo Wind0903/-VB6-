@@ -1,5 +1,4 @@
 # -VB6-
-2019新版
 
 Private Declare Function OpenUsbDevice Lib "USBIO.dll" (ByVal a As Integer, ByVal b As Integer) As Boolean
 Private Declare Sub OutDataCtrl Lib "USBIO.dll" (ByVal a As Byte, ByVal b As Byte)
